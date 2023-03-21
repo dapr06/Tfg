@@ -16,7 +16,7 @@ return new class extends Migration
             $table->char('dni', 9);
             $table->string('name', 50);
             $table->string('surname', 40);
-            $table->string('type_worker', 20);
+            $table->string('role', 20);// role que cumple el trabajador
             $table->boolean('avalibility_woker');
             $table->timestamps();
         });
